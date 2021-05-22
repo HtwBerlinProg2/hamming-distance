@@ -4,23 +4,27 @@ import java.util.ArrayList;
 
 public class Hamming {
 
+
     public Hamming(){
 
 
 
     }
 
-    public ArrayList<String> distance( String dna , String rna){
-        ArrayList<String> dnaList = new ArrayList<>( );
-        String[] dNa = dna.split("[ , ]+");
-        String[] rNa = rna.split("[ , ]+");
+    public String distance( String dna , String rna){
         String gene = null;
         String gene2 = null;
         int abstand = 0;
+        String[] dNa = dna.split("[ , ]+");
+        String[] rNa = rna.split("[ , ]+");
 
-       // dnaList.clear();
-       System.out.println(dna);
-        System.out.println(rna);
+
+
+        if(dNa.length!=rNa.length){ throw new Exception("exceptin "); }
+
+
+
+
         for(int i=0;i< dNa.length ; i++){
             gene = dNa[i];
             for (int j=0;j< dNa.length ; j++) {
@@ -30,9 +34,13 @@ public class Hamming {
                 }
             }
         }
+        System.out.println(dna);
+        System.out.println(rna);
         System.out.println(abstand);
-dnaList.add(dna);
-        return dnaList;
+
+        return "StrangA: "+dna+"\n" +
+                "StrangB: "+rna+"\n" +
+                "Hamming-Abstand:"+abstand;
     }
 
 }

@@ -7,7 +7,7 @@ public class App {
 
         Hamming h = new Hamming();
 
-        h.distance("A, G, G, A, C, G, G, A, T, T, C, T","G, G, A, C, G, G, A, T, T, C, T, G");
+        h.distance("G, G, A, C, T, G, A, A, A, T, C, T, G","G, G, A, C, T, G, A, A, A, T, C, T, G");
 
 
 
