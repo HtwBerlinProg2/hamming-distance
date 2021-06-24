@@ -1,0 +1,6 @@
+de/htwberlin/Exception.java
+ de.htwberlin.Exception
+de/htwberlin/Hamming.java
+ de.htwberlin.Hamming
+de/htwberlin/App.java
+ de.htwberlin.App

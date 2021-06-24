@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="de.htwberlin.HammingTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-05-22T15:35:48" hostname="LAPTOP-I3JIGTOI" time="0.048">
+  <properties/>
+  <testcase name="distanceExceptionTest()" classname="de.htwberlin.HammingTest" time="0.048"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

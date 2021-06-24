@@ -1,0 +1,2 @@
+de/htwberlin/HammingTest.java
+ de.htwberlin.HammingTest
